@@ -22,7 +22,7 @@ SECTION_MARKERS = [
     "voorgeschreven medicatie",
     "geneesmiddelen",
     "artsenverklaring",
-    # ASP (Apotheek Woerden B.V.), casus 028: sectietitel "Medicatie (Voorschriften/
+    # ASP (openbare apotheek), casus 028: sectietitel "Medicatie (Voorschriften/
     # Afleveringen)" staat als eigen rij BOVEN de kolomkoprij, niet erin samengevoegd --
     # zie _parse_table in locales/nl/pdf_parser.py voor hoe dat nu wordt opgevangen.
     # Nog NIET geverifieerd tegen de echte PDF-bytes (alleen tegen tekst uit een
@@ -76,13 +76,13 @@ SALT_WOORDEN = ["hcl", "natrium", "kalium", "succinaat", "tartraat", "mesilaat",
 
 # Woorden voor "keer" in een doseerfrequentie (bv. "3 x per dag", "3 maal per dag").
 # Klein en expliciet, zelfde patroon als VORM_PATTERNS hierboven -- "maal" toegevoegd
-# n.a.v. ASP (Apotheek Woerden B.V.), casus 028.
+# n.a.v. ASP (openbare apotheek), casus 028.
 FREQUENCY_TIMES_WOORDEN = ["x", "maal"]
 
 # Letterlijke Dosering-celwaarden die "geen dosering geregistreerd" betekenen, i.p.v.
 # een onherkend patroon dat als fout zou moeten gelden (CLAUDE.md regel 4: expliciete,
 # gedocumenteerde waarde, geen gok -- en zeker geen stille drop, zie SAFETY.md over
-# automation bias). Bron: ASP (Apotheek Woerden B.V.), casus 028 -- daar staat "."
+# automation bias). Bron: ASP (openbare apotheek), casus 028 -- daar staat "."
 # voor drie van de vier medicijnen in de Dosering-kolom.
 EMPTY_DOSE_MARKERS = ["."]
 

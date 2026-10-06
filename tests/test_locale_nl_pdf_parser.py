@@ -160,7 +160,7 @@ def test_parse_table_no_header_returns_empty():
 
 
 def test_parse_table_title_row_separate_from_label_row():
-    # ASP (Apotheek Woerden, casus 028): sectietitel staat als eigen rij BOVEN de
+    # ASP (openbare apotheek, casus 028): sectietitel staat als eigen rij BOVEN de
     # koprij met per-kolom kopcellen, niet samengevoegd zoals bij HIX. Kolomvolgorde
     # en -namen nagebootst op basis van de chat-upload; dosering hier met een
     # herkenbaar "N x per dag"-patroon (de "." /"1 maal per dag"-varianten uit de

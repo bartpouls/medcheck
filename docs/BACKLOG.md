@@ -87,7 +87,7 @@ Status: [ ] open · [~] bezig · [x] klaar. Verplaats niets naar een latere fase
       i.p.v. "Bron A"/"Bron B", incl. de identiteitswaarschuwingen in `identity.py`.
 
 ## Nieuwe bronsystemen (toegevoegd 2026-08-28, sessie 12-14)
-- [x] ASP-tabelexport (Apotheek Woerden B.V., casus 028) — koprij-detectie verruimd
+- [x] ASP-tabelexport (openbare apotheek, casus 028) — koprij-detectie verruimd
       voor titelrij-los-van-koprij-sjablonen, `_header_row_field_map`-inversiebug
       gefixt, "." → expliciet "geen dosering geregistreerd", "maal" als synoniem
       voor "x". Stofnaam/sterkte/vorm/dosering-leegte bevestigd tegen echte bytes.
