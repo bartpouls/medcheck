@@ -1,0 +1,50 @@
+[
+  {
+    "atc": "C07AB07",
+    "substance": "bisoprolol",
+    "brand": "",
+    "strength_value": 5,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "Bisoprolol 5mg, 1dd1",
+    "confidence": 1.0,
+    "source": "a"
+  },
+  {
+    "atc": "C10AA05",
+    "substance": "atorvastatine",
+    "brand": "",
+    "strength_value": 40,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "Atorvastatine 40mg, 1dd1 's avonds",
+    "confidence": 1.0,
+    "source": "a"
+  },
+  {
+    "atc": "A10BA02",
+    "substance": "metformine",
+    "brand": "",
+    "strength_value": 850,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "2dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "Metformine 850mg, 2dd1",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

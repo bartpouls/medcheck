@@ -1,0 +1,14 @@
+[
+  {
+    "type": "FREQUENCY_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "midden",
+    "requires_escalation": false,
+    "reason": "Metoprolol van 1dd1 naar 2dd1 (dagdosis verdubbeld van 50mg naar 100mg); geen registreerde reden."
+  }
+]

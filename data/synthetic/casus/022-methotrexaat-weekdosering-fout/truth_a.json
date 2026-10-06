@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "L04AX03",
+    "substance": "methotrexaat",
+    "brand": "",
+    "strength_value": 10,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1x/week",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "methotrexaat 10 mg, 1x per week, elke maandag",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

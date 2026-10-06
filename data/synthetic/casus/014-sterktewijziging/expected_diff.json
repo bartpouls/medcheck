@@ -1,0 +1,14 @@
+[
+  {
+    "type": "STRENGTH_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "midden",
+    "requires_escalation": false,
+    "reason": "Furosemide van 40mg naar 80mg 1dd1 — dosis verdubbeld, frequentie ongewijzigd."
+  }
+]

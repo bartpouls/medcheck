@@ -1,0 +1,14 @@
+[
+  {
+    "type": "DOSE_CHANGE",
+    "lines_a": [
+      1
+    ],
+    "lines_b": [
+      1
+    ],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Insuline aspart van 8 naar 12 eenheden per bolus — risicomedicatie, geen registreerde reden."
+  }
+]

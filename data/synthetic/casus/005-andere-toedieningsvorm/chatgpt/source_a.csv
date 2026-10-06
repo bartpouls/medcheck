@@ -1,0 +1,2 @@
+drug_name,route,dose_form,frequency,strength,prn_flag,start_date,stop_date,stop_reason
+paracetamol,oraal,tablet,4dd1,500mg,nee,,,

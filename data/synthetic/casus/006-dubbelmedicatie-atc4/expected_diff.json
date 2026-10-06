@@ -1,0 +1,15 @@
+[
+  {
+    "type": "DUPLICATE_THERAPY",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0,
+      1
+    ],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Twee NSAID's (ibuprofen, diclofenac) binnen dezelfde ATC-4 (M01A) tegelijk in lijst B — verhoogd risico gastro-intestinaal/renaal."
+  }
+]

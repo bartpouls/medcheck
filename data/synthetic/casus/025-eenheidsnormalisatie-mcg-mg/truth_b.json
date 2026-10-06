@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "H03AA01",
+    "substance": "levothyroxine",
+    "brand": "",
+    "strength_value": 100,
+    "strength_unit": "mcg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "levothyroxine 100 microgram, 1dd1",
+    "confidence": 1.0,
+    "source": "b"
+  }
+]

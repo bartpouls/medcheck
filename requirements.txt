@@ -1,0 +1,7 @@
+anthropic>=0.40
+pydantic>=2.7
+pdfplumber>=0.11
+pytest>=8.0
+python-dotenv>=1.0
+streamlit>=1.35
+ruff>=0.5

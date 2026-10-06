@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "H02AB06",
+    "substance": "prednisolon",
+    "brand": "",
+    "strength_value": 10,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "prednisolon afbouwschema: 30mg week1, 20mg week2, 10mg week3 (nu week 3), 1dd1",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

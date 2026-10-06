@@ -1,0 +1,22 @@
+{
+  "case": "003-titratie-prednisolon",
+  "schema_version": "1.0",
+  "source_a": "source_a.csv",
+  "source_b": "source_b.csv",
+  "expected_diffs": [
+    {
+      "type": "representation",
+      "field": "strength",
+      "a": "30mg week1; 20mg week2; 10mg week3 (nu week 3)",
+      "b": "10mg",
+      "clinical_equivalence_current_week": true
+    },
+    {
+      "type": "information_loss",
+      "field": "titration_history",
+      "a": "30mg → 20mg → 10mg",
+      "b": null,
+      "clinical_equivalence_current_week": true
+    }
+  ]
+}

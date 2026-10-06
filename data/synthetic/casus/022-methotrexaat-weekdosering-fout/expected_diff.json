@@ -1,0 +1,14 @@
+[
+  {
+    "type": "FREQUENCY_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "kritiek",
+    "requires_escalation": true,
+    "reason": "Methotrexaat frequentie 1x/week (correct) tegenover 1dd1 (bron B) — 7x overdosering indien juist overgenomen; direct escaleren, risicomedicatie."
+  }
+]

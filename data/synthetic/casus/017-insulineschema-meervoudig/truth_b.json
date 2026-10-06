@@ -1,0 +1,34 @@
+[
+  {
+    "atc": "A10AE04",
+    "substance": "insuline glargine",
+    "brand": "",
+    "strength_value": null,
+    "strength_unit": "100E/ml",
+    "form": "tablet",
+    "dose_value": 20,
+    "dose_unit": "eenheden",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "subcutaan",
+    "raw_text": "insuline glargine 100E/ml, 20 eenheden, 1dd1",
+    "confidence": 1.0,
+    "source": "b"
+  },
+  {
+    "atc": "A10AB05",
+    "substance": "insuline aspart",
+    "brand": "",
+    "strength_value": null,
+    "strength_unit": "100E/ml",
+    "form": "tablet",
+    "dose_value": 12,
+    "dose_unit": "eenheden",
+    "frequency_canonical": "3dd1",
+    "prn": false,
+    "route": "subcutaan",
+    "raw_text": "insuline aspart 100E/ml, 12 eenheden, 3dd1",
+    "confidence": 1.0,
+    "source": "b"
+  }
+]

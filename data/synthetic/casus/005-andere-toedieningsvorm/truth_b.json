@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "N02BE01",
+    "substance": "paracetamol",
+    "brand": "",
+    "strength_value": 960,
+    "strength_unit": "mg",
+    "form": "drank",
+    "dose_value": 40,
+    "dose_unit": "ml",
+    "frequency_canonical": "4dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "paracetamol 24 mg/ml, 40 ml, 4dd1",
+    "confidence": 1.0,
+    "source": "b"
+  }
+]

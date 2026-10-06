@@ -1,0 +1,14 @@
+[
+  {
+    "type": "STRENGTH_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Fentanylpleister opgehoogd van 25 naar 50 microgram/uur — opioïd is risicomedicatie, altijd verifiëren ondanks aannemelijke titratie."
+  }
+]

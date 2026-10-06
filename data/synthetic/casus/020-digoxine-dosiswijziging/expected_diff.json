@@ -1,0 +1,14 @@
+[
+  {
+    "type": "STRENGTH_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Digoxine gehalveerd van 0,25mg naar 0,125mg 1dd1 — risicomedicatie, geen registreerde reden (mogelijk nierfunctie-gerelateerd, te verifiëren door apotheker)."
+  }
+]

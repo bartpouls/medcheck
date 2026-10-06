@@ -1,0 +1,12 @@
+[
+  {
+    "type": "STOPPED",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [],
+    "severity": "laag",
+    "requires_escalation": false,
+    "reason": "Lisinopril gestopt vanwege prikkelhoest (bijwerking) — reden geregistreerd, geen risicomedicatie."
+  }
+]

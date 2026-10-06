@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "B01AF01",
+    "substance": "rivaroxaban",
+    "brand": "",
+    "strength_value": 20,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "rivaroxaban 20 mg, 1dd1",
+    "confidence": 1.0,
+    "source": "b"
+  }
+]

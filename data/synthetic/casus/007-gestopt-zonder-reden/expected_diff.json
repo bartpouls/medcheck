@@ -1,0 +1,12 @@
+[
+  {
+    "type": "STOPPED",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Methotrexaat komt niet meer voor in lijst B; geen stopreden geregistreerd. Risicomedicatie."
+  }
+]

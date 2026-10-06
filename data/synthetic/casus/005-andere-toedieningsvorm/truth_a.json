@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "N02BE01",
+    "substance": "paracetamol",
+    "brand": "",
+    "strength_value": 1000,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": 2,
+    "dose_unit": "stuk",
+    "frequency_canonical": "4dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "paracetamol 500 mg, 2 tabletten, 4dd1",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

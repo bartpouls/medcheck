@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "M01AE01",
+    "substance": "ibuprofen",
+    "brand": "",
+    "strength_value": 400,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "3dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "ibuprofen 400 mg, 3dd1",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

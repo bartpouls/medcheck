@@ -1,0 +1,15 @@
+[
+  {
+    "type": "DUPLICATE_THERAPY",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0,
+      1
+    ],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Oxazepam en temazepam (beide sedativa/hypnotica) tegelijk in lijst B — verhoogd valrisico, met name bij ouderen."
+  }
+]

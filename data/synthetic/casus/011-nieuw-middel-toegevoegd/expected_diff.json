@@ -1,0 +1,12 @@
+[
+  {
+    "type": "ADDED",
+    "lines_a": [],
+    "lines_b": [
+      1
+    ],
+    "severity": "midden",
+    "requires_escalation": false,
+    "reason": "Flucloxacilline nieuw gestart tussen bron A en bron B; geen risicomedicatie."
+  }
+]

@@ -1,0 +1,18 @@
+.env
+*.key
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+eval/runs/
+ui/.streamlit/secrets.toml
+validate_report.md
+data/local/
+
+# Privécontext: sessie-bouwlog en workshopvoorbereiding, niet voor publicatie.
+# Blijven lokaal voor Bart's eigen onderwijsvoorbereiding/geleerde lessen.
+docs/JOURNEY.md
+docs/WORKSHOP_26AUG.md
+docs/WORKSHOP_12OKT.md

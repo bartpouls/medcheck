@@ -1,0 +1,6 @@
+drug_name,route,dose_form,frequency,strength,prn_flag,start_date,stop_date,stop_reason
+bisoprolol,oraal,tablet,1dd1,5mg,nee,,,
+metoprolol,oraal,tablet,2dd1,100mg,nee,,,
+perindopril,oraal,tablet,1dd1,4mg,nee,,,
+acetylsalicylzuur,oraal,tablet,1dd1,80mg,nee,,,
+simvastatine,oraal,tablet,1dd1 's avonds,20mg,nee,,,

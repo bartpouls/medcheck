@@ -1,0 +1,34 @@
+[
+  {
+    "atc": "N05AN01",
+    "substance": "lithiumcarbonaat",
+    "brand": "",
+    "strength_value": 400,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "2dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "lithiumcarbonaat 400 mg, 2dd1",
+    "confidence": 1.0,
+    "source": "b"
+  },
+  {
+    "atc": "N06AB06",
+    "substance": "sertraline",
+    "brand": "",
+    "strength_value": 100,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "sertraline 100 mg, 1dd1",
+    "confidence": 1.0,
+    "source": "b"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "case": "004-zo-nodig-vs-vast",
+  "schema_version": "1.0",
+  "source_a": "source_a.csv",
+  "source_b": "source_b.csv",
+  "expected_diffs": [
+    {
+      "type": "clinical",
+      "field": "frequency",
+      "a": "zo nodig max 4dd1",
+      "b": "2dd1",
+      "clinical_equivalence": false
+    },
+    {
+      "type": "clinical",
+      "field": "prn_flag",
+      "a": true,
+      "b": false,
+      "clinical_equivalence": false
+    }
+  ]
+}

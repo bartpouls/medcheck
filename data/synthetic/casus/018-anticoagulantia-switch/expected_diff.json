@@ -1,0 +1,22 @@
+[
+  {
+    "type": "STOPPED",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Acenocoumarol gestopt met reden (switch naar DOAC) — antistolling is risicomedicatie, escalatie ter verificatie ondanks geregistreerde reden."
+  },
+  {
+    "type": "ADDED",
+    "lines_a": [],
+    "lines_b": [
+      0
+    ],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Rivaroxaban nieuw gestart als vervanger van acenocoumarol — antistolling is risicomedicatie."
+  }
+]

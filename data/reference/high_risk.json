@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "bron": "escalatieregels in CLAUDE.md (fase 3) + WHO ATC-index",
+    "status": "CONCEPT — ongeverifieerd door mens",
+    "waarschuwing": "AI-gegenereerd. Verifieer steekproefsgewijs tegen de WHO ATC-index en leg de steekproef vast in docs/JOURNEY.md, net als bij atc_subset.json.",
+    "toelichting": "atc_prefixes matchen op ATC-4 of hoger (bv. 'N02A' matcht elk 7-karakter ATC-5-code die ermee begint). atc_codes zijn exacte ATC-5-matches. Triage-laag moet ook op genormaliseerde stofnaam matchen als fallback (zie CLAUDE.md matchingregel) — sommige middelen (bv. methotrexaat) hebben in de WHO-index twee geldige ATC-codes afhankelijk van indicatie."
+  },
+  "risk_classes": [
+    {
+      "categorie": "antistolling",
+      "atc_prefixes": ["B01A"],
+      "voorbeelden": ["acenocoumarol", "fenprocoumon", "rivaroxaban", "apixaban", "dabigatran", "edoxaban", "enoxaparine", "dalteparine", "nadroparine", "acetylsalicylzuur", "clopidogrel", "prasugrel", "ticagrelor"]
+    },
+    {
+      "categorie": "insuline",
+      "atc_prefixes": ["A10A"],
+      "voorbeelden": ["insuline aspart", "insuline lispro", "insuline glargine", "insuline degludec", "insuline NPH (isofaan)"]
+    },
+    {
+      "categorie": "opioïden",
+      "atc_prefixes": ["N02A"],
+      "voorbeelden": ["morfine", "oxycodon", "fentanyl", "tramadol", "buprenorfine", "codeine"],
+      "let_op": "de 'atc_codes': ['R05DA04']-exceptie voor codeine is verwijderd op 2026-08-25 (geverifieerd door Bart Pouls): R05DA04 dekt in de WHO-index de hoestmiddel-indicatie, niet de analgetische toepassing die deze categorie wil vangen — als triggercode voor codeine-als-pijnstiller klopt hij niet, dus geen vervangende exacte code ingevuld. Codeine blijft wél in 'voorbeelden' staan zodat de stofnaam-fallback (zie _meta.toelichting) hem blijft vangen — alleen de ATC-5-route is nu weg. Codeine is bovendien het minst risicovolle opioïd uit deze lijst. Geen stille fix: de juiste ATC-5-code(s) voor codeine-als-pijnstiller (o.a. combinatiepreparaat met paracetamol) zijn nog niet bepaald — zie docs/BACKLOG.md."
+    },
+    {
+      "categorie": "methotrexaat",
+      "atc_codes": ["L01BA01", "L04AX03"],
+      "voorbeelden": ["methotrexaat"],
+      "let_op": "methotrexaat heeft twee geldige ATC-codes (oncologisch vs. immunosuppressief/reumatologisch gebruik) — beide opnemen, plus stofnaam-fallback."
+    },
+    {
+      "categorie": "lithium",
+      "atc_codes": ["N05AN01"],
+      "voorbeelden": ["lithiumcarbonaat"]
+    },
+    {
+      "categorie": "digoxine",
+      "atc_codes": ["C01AA05"],
+      "voorbeelden": ["digoxine"]
+    },
+    {
+      "categorie": "cytostatica",
+      "atc_prefixes": ["L01"],
+      "voorbeelden": ["cyclofosfamide", "methotrexaat (oncologisch)", "capecitabine"],
+      "let_op": "tamoxifen en letrozol zijn verwijderd op 2026-08-25 (Bart Pouls): beide zijn ATC L02 (endocriene therapie), niet L01 — vielen dus sowieso buiten de eigen atc_prefix van deze categorie, en zijn als escalatie-voorbeeld ook klinisch minder spannend dan een klassiek L01-cytostaticum. Capecitabine (L01BC06) toegevoegd als relevanter voorbeeld. L04 (overige immunosuppressiva, bv. azathioprine, tacrolimus) valt hier bewust NIET onder — die zitten sinds 2026-08-25 in de eigen categorie 'immunomodulantia' hieronder."
+    },
+    {
+      "categorie": "anti-epileptica",
+      "atc_prefixes": ["N03A"],
+      "voorbeelden": ["valproinezuur", "carbamazepine", "lamotrigine", "levetiracetam", "fenytoine"]
+    },
+    {
+      "categorie": "antipsychotica",
+      "atc_prefixes": ["N05A"],
+      "voorbeelden": ["haloperidol", "olanzapine", "quetiapine", "risperidon", "clozapine"],
+      "let_op": "toegevoegd 2026-08-25 (Bart Pouls). N05A overlapt met lithium (N05AN01, zie categorie 'lithium' hierboven) — een middel kan dus in meerdere categorieën tegelijk vallen; dat is bestaand gedrag in dit bestand (zie ook methotrexaat ↔ cytostatica) en geen bug. Clozapine heeft bovenop het algemene antipsychotica-risico een eigen verplichte bloedcontrole (agranulocytose)."
+    },
+    {
+      "categorie": "immunomodulantia",
+      "atc_prefixes": ["L04"],
+      "voorbeelden": ["azathioprine", "tacrolimus", "ciclosporine", "mycofenolaat mofetil"],
+      "let_op": "toegevoegd 2026-08-25 (Bart Pouls). Overlapt bewust met methotrexaat (L04AX03, zie categorie 'methotrexaat' hierboven) — zelfde patroon als antipsychotica ↔ lithium. Tacrolimus, ciclosporine en mycofenolaat mofetil zijn nieuw toegevoegd aan atc_subset.json en vallen onder dezelfde 'ongeverifieerd door mens'-status als de rest van dat bestand — nog niet in Bart's steekproef meegenomen."
+    }
+  ]
+}

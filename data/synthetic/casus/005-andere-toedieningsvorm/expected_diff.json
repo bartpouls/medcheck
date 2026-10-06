@@ -1,0 +1,14 @@
+[
+  {
+    "type": "FORM_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "laag",
+    "requires_escalation": false,
+    "reason": "Toedieningsvorm gewijzigd van tablet naar drank; dagdosis nagenoeg gelijk (1000mg vs 960mg)."
+  }
+]

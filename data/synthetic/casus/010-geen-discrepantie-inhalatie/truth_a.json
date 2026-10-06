@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "R03AK07",
+    "substance": "formoterol/budesonide",
+    "brand": "Symbicort",
+    "strength_value": null,
+    "strength_unit": "160mcg/4.5mcg",
+    "form": "tablet",
+    "dose_value": 2,
+    "dose_unit": "inhalatie",
+    "frequency_canonical": "2dd1",
+    "prn": false,
+    "route": "inhalatie",
+    "raw_text": "Symbicort 160/4,5 microgram, 2 inhalaties, 2dd1",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

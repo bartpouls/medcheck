@@ -1,0 +1,27 @@
+{
+  "case": "005-andere-toedieningsvorm",
+  "schema_version": "1.0",
+  "source_a": "source_a.csv",
+  "source_b": "source_b.csv",
+  "expected_diffs": [
+    {
+      "type": "clinical",
+      "field": "dose_form",
+      "a": "tablet",
+      "b": "drank",
+      "clinical_equivalence": false
+    },
+    {
+      "type": "clinical",
+      "field": "dose_per_administration",
+      "a": "2 tabletten × 500mg = 1000mg",
+      "b": "40ml × 24mg/ml = 960mg",
+      "clinical_equivalence": false
+    },
+    {
+      "type": "source_specification_issue",
+      "field": "dose",
+      "note": "De aangeleverde tekst specificeert A als 2 tabletten van 500mg en B als 40ml van 24mg/ml. Dat is 1000mg versus 960mg per gift; dit is dus meer dan alleen een toedieningsvormverschil."
+    }
+  ]
+}

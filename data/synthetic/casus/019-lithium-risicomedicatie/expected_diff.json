@@ -1,0 +1,14 @@
+[
+  {
+    "type": "DOSE_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Lithiumcarbonaat dagdosis verdubbeld (1600mg -> 3200mg/dag) — smalle therapeutische breedte, geen registreerde reden."
+  }
+]

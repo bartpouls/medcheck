@@ -1,0 +1,14 @@
+[
+  {
+    "type": "FREQUENCY_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "hoog",
+    "requires_escalation": true,
+    "reason": "Oxycodon van zo-nodig-gebruik naar vaste dosering (2dd1) — mogelijke overdrachtsfout, opioïd is risicomedicatie."
+  }
+]

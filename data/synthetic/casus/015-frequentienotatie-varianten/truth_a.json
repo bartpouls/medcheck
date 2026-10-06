@@ -1,0 +1,34 @@
+[
+  {
+    "atc": "H03AA01",
+    "substance": "levothyroxine",
+    "brand": "",
+    "strength_value": 100,
+    "strength_unit": "mcg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "levothyroxine 100 microgram, 1x per dag, 's ochtends nuchter",
+    "confidence": 1.0,
+    "source": "a"
+  },
+  {
+    "atc": "C10AA05",
+    "substance": "atorvastatine",
+    "brand": "",
+    "strength_value": 20,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "atorvastatine 20 mg, 's avonds 1 tablet",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

@@ -1,0 +1,2 @@
+drug_name,route,dose_form,frequency,strength,prn_flag,start_date,stop_date,stop_reason
+prednisolon,oraal,tablet,1dd1,10mg,nee,,,

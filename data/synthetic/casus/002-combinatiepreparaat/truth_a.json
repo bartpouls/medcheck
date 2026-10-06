@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "C09DB01",
+    "substance": "amlodipine/valsartan",
+    "brand": "Exforge",
+    "strength_value": null,
+    "strength_unit": "5mg/80mg",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "1dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "Exforge 5/80 mg, 1dd1",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

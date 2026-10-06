@@ -1,0 +1,15 @@
+{
+  "case": "001-merknaam-vs-stofnaam",
+  "schema_version": "1.0",
+  "source_a": "source_a.csv",
+  "source_b": "source_b.csv",
+  "expected_diffs": [
+    {
+      "type": "representation",
+      "field": "drug_name",
+      "a": "merknaam",
+      "b": "stofnaam",
+      "clinical_equivalence": true
+    }
+  ]
+}

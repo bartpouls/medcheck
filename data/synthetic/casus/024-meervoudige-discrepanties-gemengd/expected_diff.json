@@ -1,0 +1,34 @@
+[
+  {
+    "type": "DOSE_CHANGE",
+    "lines_a": [
+      0
+    ],
+    "lines_b": [
+      0
+    ],
+    "severity": "midden",
+    "requires_escalation": false,
+    "reason": "Amlodipine van 5mg naar 10mg 1dd1 — geen risicomedicatie, wel te verifiëren."
+  },
+  {
+    "type": "STOPPED",
+    "lines_a": [
+      2
+    ],
+    "lines_b": [],
+    "severity": "midden",
+    "requires_escalation": true,
+    "reason": "Pantoprazol niet meer aanwezig in lijst B, geen stopreden geregistreerd."
+  },
+  {
+    "type": "ADDED",
+    "lines_a": [],
+    "lines_b": [
+      3
+    ],
+    "severity": "laag",
+    "requires_escalation": false,
+    "reason": "Candesartan nieuw gestart, geen risicomedicatie."
+  }
+]

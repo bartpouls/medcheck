@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "N02AB03",
+    "substance": "fentanyl",
+    "brand": "",
+    "strength_value": 50,
+    "strength_unit": "mcg/uur",
+    "form": "pleister",
+    "dose_value": null,
+    "dose_unit": "stuk",
+    "frequency_canonical": "om de 72u",
+    "prn": false,
+    "route": "transdermaal",
+    "raw_text": "fentanyl 50 microgram/uur pleister, om de 72 uur",
+    "confidence": 1.0,
+    "source": "b"
+  }
+]

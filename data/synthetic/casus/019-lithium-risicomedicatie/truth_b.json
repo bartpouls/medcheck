@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "N05AN01",
+    "substance": "lithiumcarbonaat",
+    "brand": "",
+    "strength_value": 400,
+    "strength_unit": "mg",
+    "form": "tablet",
+    "dose_value": 2,
+    "dose_unit": "stuk",
+    "frequency_canonical": "2dd1",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "lithiumcarbonaat 400 mg, 2 tabletten, 2dd1",
+    "confidence": 1.0,
+    "source": "b"
+  }
+]

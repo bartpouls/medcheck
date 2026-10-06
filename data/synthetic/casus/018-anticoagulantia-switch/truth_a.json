@@ -1,0 +1,18 @@
+[
+  {
+    "atc": "B01AA07",
+    "substance": "acenocoumarol",
+    "brand": "",
+    "strength_value": null,
+    "strength_unit": "",
+    "form": "tablet",
+    "dose_value": null,
+    "dose_unit": "wisselend",
+    "frequency_canonical": "wisselend (INR-gestuurd)",
+    "prn": false,
+    "route": "oraal",
+    "raw_text": "acenocoumarol 1 mg, volgens doseerschema, gestopt: switch naar DOAC",
+    "confidence": 1.0,
+    "source": "a"
+  }
+]

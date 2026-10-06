@@ -1,0 +1,6 @@
+drug_name,route,dose_form,frequency,strength,prn_flag,start_date,stop_date,stop_reason
+Emcor,oraal,tablet,1dd1,5mg,nee,,,
+Selokeen,oraal,tablet,2dd1,50mg,nee,,,
+Coversyl,oraal,tablet,1dd1,4mg,nee,,,
+Ascal,oraal,tablet,1dd1,80mg,nee,,,
+Zocor,oraal,tablet,1dd1 's avonds,20mg,nee,,,
