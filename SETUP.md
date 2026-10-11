@@ -46,13 +46,62 @@ pytest                              # moet slagen (nog geen tests = groen)
 `.env` staat in `.gitignore`. Zet je API-key nooit in een bestand dat je commit — controleer dit
 vóór je eerste push.
 
-## 5. API-key
+## 5. Streamlit-UI starten en testen
+
+Na installatie van de dependencies start je de Streamlit-webinterface:
+
+```bash
+# Activeer de virtuele omgeving (Windows)
+.venv\Scripts\activate
+
+# Of op macOS/Linux
+source .venv/bin/activate
+
+# Start Streamlit
+streamlit run ui/app.py
+```
+
+Streamlit opent automatisch een browservenster met MedCheck. Als dat niet lukt, kopieer dan
+de URL die in de terminal verschijnt (meestal `http://localhost:8501`) en plak die in je browser.
+
+### Verificatiestappen
+
+Controleer of alles werkt door deze checks uit te voeren:
+
+1. **Streamlit start op**
+   - Zie je de MedCheck-titel en versie in de browser?
+   - Zie je de twee upload-velden "Was" en "Wordt"?
+
+2. **Bestanden uploaden en vergelijken**
+   - Upload twee CSV- of PDF-bestanden met medicatiegegevens
+   - Klik op "Vergelijk"
+   - Zie je een resultaat met eventuele discrepanties?
+
+3. **Identiteitscheck**
+   - Als de bestanden BSN-gegevens bevatten: zie je de melding "Patiëntidentiteit bevestigd via BSN"?
+   - Als er geen BSN is: zie je een waarschuwing over handmatige controle?
+
+4. **Geen verschillen**
+   - Upload twee identieke medicatielijsten
+   - Zie je een succsmelding met het aantal gematchte regels?
+
+5. **Foutafhandeling**
+   - Probeer een onleesbaar PDF-bestand te uploaden
+   - Zie je een duidelijke foutmelding?
+
+### Veelvoorkomende problemen
+
+- **ModuleNotFoundError: streamlit**: Voer `pip install -r requirements.txt` uit in de geactiveerde venv
+- **Port 8501 in use**: Sluit andere Streamlit-instanties of gebruik `streamlit run ui/app.py --server.port 8502`
+- **FileNotFoundError**: Zorg dat je in de projectroot staat (`cd /pad/naar/medcheck`)
+
+## 6. API-key
 
 Aanmaken in de Anthropic Console. Je gebruikt de API alleen in fase 2 (extractie) en voor de
 evaluatieruns. Zet een uitgavenlimiet; evaluatieruns over 30 casus × meerdere iteraties lopen
 anders ongemerkt op.
 
-## 6. Vaste sessieroutine
+## 7. Vaste sessieroutine
 
 Begin:
 ```
@@ -66,7 +115,7 @@ Schrijf een JOURNEY-entry voor deze sessie volgens het sjabloon. Wees eerlijk ov
 misging en welk gedrag van jou onbetrouwbaar was.
 ```
 
-## 7. Repo-structuur
+## 8. Repo-structuur
 
 ```
 medcheck/
