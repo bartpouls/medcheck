@@ -98,7 +98,7 @@ voorwaarden blijft de hoofdregel "geen persoonsgegevens" onverkort van kracht.
 
 | Versie | Datum | Wijziging |
 |---|---|---|
-| 0.1 | 2026-07-23 | Eerste concept, datum ingevuld — nog niet definitief, zie WORKSHOP_25AUG.md punt 2 |
+| 0.1 | 2026-07-23 | Eerste concept, datum ingevuld — nog niet definitief, zie de workshopvoorbereiding (privé) punt 2 |
 | 0.2 | 2026-07-23 | Onderscheid doseer- vs. gebruiksinstructie toegevoegd (verschil in gebruiksinstructie alleen = geen discrepantie); was-wordt principe voor presentatie van verschillen; niet-medicatiecontext (labwaarden, allergieën, contra-indicaties) toegevoegd als toonbare, niet-beoordeelde context; fotobeperking verfijnd (met/zonder leesbaar etiket); uitzondering op "geen echte patiëntdata" opgenomen voor geanonimiseerde EU-medicatiedata onder vier voorwaarden, zie ADR-002 — nog steeds concept, akkoord Bart Pouls vereist |
 | 0.3 | 2026-07-27 | Expliciet vastgelegd dat toegevoegd/gestopt/sterktewijziging altijd discrepantie zijn, ongeacht het doseer- vs. gebruiksinstructie-onderscheid; §5 verduidelijkt naar "ter beoordeling aan de zorgprofessional/gebruiker" — nog steeds concept, akkoord Bart Pouls vereist |
 | 1.0 | 2026-07-27 | Akkoord Bart Pouls op inhoud v0.3, geen verdere inhoudelijke wijziging — document definitief. Blijft onderhevig aan §7: onderzoeks-/demonstratieprototype, niet in gebruik voor patiëntenzorg, niet CE-gemarkeerd |

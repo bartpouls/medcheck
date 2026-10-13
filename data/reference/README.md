@@ -5,4 +5,4 @@
 
 Bron ATC: WHO Collaborating Centre for Drug Statistics Methodology, ATC-index.
 AI mag deze tabellen genereren; verifieer minimaal 20 willekeurige regels handmatig en leg de
-steekproef vast in JOURNEY.md. Een gehallucineerde ATC-code is een stille systeemfout.
+steekproef vast in het privé-bouwlog. Een gehallucineerde ATC-code is een stille systeemfout.

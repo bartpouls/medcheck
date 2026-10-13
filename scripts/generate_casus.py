@@ -5,7 +5,7 @@ Genereert per casus: source_a.csv, source_b.csv, truth_a.json, truth_b.json,
 expected_diff.json, notes.md — volgens data/casus/README.md.
 
 Alle inhoud hieronder is AI-gegenereerd concept. Bart reviewt medisch-inhoudelijk
-vóór gebruik in fase 1 (zie WORKSHOP_25AUG.md, punt 3).
+vóór gebruik in fase 1 (zie de workshopvoorbereiding (privé), punt 3).
 
 Gebruik: python scripts/generate_casus.py
 """
@@ -569,7 +569,7 @@ STRENGTH_CHANGE.
 )
 
 # ---------------------------------------------------------------------------
-# 015 — frequentienotatie-varianten (moeras uit WORKSHOP_25AUG.md)
+# 015 — frequentienotatie-varianten (moeras uit de workshopvoorbereiding (privé))
 # ---------------------------------------------------------------------------
 add(
     "015-frequentienotatie-varianten",
@@ -580,7 +580,7 @@ notatiestijlen over lijst A en lijst B heen: "1dd1", "1x per dag", "'s ochtends 
 
 **Verwacht:** 0 discrepanties — alle drie normaliseren naar dezelfde frequency_canonical.
 
-**Test wat:** frequentiecanonicalisatie, zie WORKSHOP_25AUG.md "waar je vastloopt".
+**Test wat:** frequentiecanonicalisatie, zie de workshopvoorbereiding (privé) "waar je vastloopt".
 """,
     rows_a=[
         row("levothyroxine", "100 microgram", "tablet", "1 tablet", "1x per dag, 's ochtends nuchter"),
@@ -831,7 +831,7 @@ add(
 Lijst B: abusievelijk overgenomen als "1dd1" (dagelijks) — een 7x overdosering.
 
 **Verwacht:** 1 discrepantie, FREQUENCY_CHANGE, hoogst mogelijke severity, verplichte
-escalatie. Dit is een van de sterkste JOURNEY/workshop-voorbeelden: een AI-extractie die
+escalatie. Dit is een van de sterkste bouwlog-/workshopvoorbeelden: een AI-extractie die
 "1dd1" en "1x per week" als plausibele varianten van elkaar zou normaliseren, is precies de
 stille fout die regel 4 in CLAUDE.md (geen stille fixes) moet voorkomen.
 

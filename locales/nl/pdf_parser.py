@@ -1,7 +1,7 @@
 """Generieke parser voor Nederlandse medicatieoverzicht-PDF's -- gedreven door de
 landelijke synoniemenlijst in locales/nl/vocab.py, niet door één letterlijk
 documentsjabloon per leverancier. Vervangt de eerdere, bijna-identieke `parsing/hix.py`
-en `parsing/cgm_apotheek.py` (zie JOURNEY.md 2026-08-26 sessie 9 voor de aanleiding: die
+en `parsing/cgm_apotheek.py` (zie het privé-bouwlog 2026-08-26 sessie 9 voor de aanleiding: die
 twee bleken op de gedeelde NHG/KNMP-begrippenset achter Nictiz' AMO/MP9-informatiestandaard
 te herleiden, wat generalisatie zonder gokken mogelijk maakt).
 
@@ -40,7 +40,7 @@ betekent een niet-passende rij het natuurlijke einde van de sectie. Dit is een b
 gedocumenteerde grens van CLAUDE.md regel 4: geen letterlijke eindmarker per bron nodig
 (dat zou weer vendor-specifiek zijn), maar wel het risico dat een echt kapotte
 medicatieregel binnen de sectie stilzwijgend als "einde sectie" gelezen wordt i.p.v. als
-fout gemeld. Zie JOURNEY.md 2026-08-26 sessie 9 voor de afweging.
+fout gemeld. Zie het privé-bouwlog 2026-08-26 sessie 9 voor de afweging.
 """
 
 import re

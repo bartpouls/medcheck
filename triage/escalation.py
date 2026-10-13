@@ -3,7 +3,7 @@
 Severity is hier bewust minimaal en generiek gehouden: CLAUDE.md/RISK_ANALYSIS.md
 documenteren risicoklassen en escalatietriggers, maar geen fijnmazige laag/midden/hoog/
 kritiek-toewijzingsregel per situatie. Zelf een verfijnde severity-heuristiek verzinnen
-zou precies het "AI verzint klinische heuristieken" risico zijn dat WORKSHOP_26AUG.md
+zou precies het "AI verzint klinische heuristieken" risico zijn dat de workshopvoorbereiding (privé)
 expliciet waarschuwt te vermijden. `requires_escalation` volgt wél direct en volledig uit
 de gedocumenteerde regels; `severity` is een grove, consistente indicatie -- geen
 klinisch fijnafgestelde score. Zie het bouwrapport voor de volledige toelichting.

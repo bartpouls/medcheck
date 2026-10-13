@@ -5,7 +5,7 @@ Twee dingen expliciet uit elkaar gehouden, conform INTENDED_USE.md v1.0 §4:
 - de **modifier** (gebruiksinstructie/innamemoment, bv. "'s avonds", "nuchter") --
   puur informatief, telt NOOIT mee bij het bepalen van een discrepantie.
 
-Let op (workshopgoud, zie WORKSHOP_26AUG.md en casus 022): een wekelijkse frequentie
+Let op (workshopgoud, zie de workshopvoorbereiding (privé) en casus 022): een wekelijkse frequentie
 ("1x per week") wordt NOOIT gelijkgesteld aan een dagelijkse ("1dd1") — dat is precies
 de overdrachtsfout die casus 022 opzettelijk test. Alleen expliciet als
 dagfrequentie-varianten herkende notaties worden onderling gelijkgesteld.

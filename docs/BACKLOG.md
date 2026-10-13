@@ -16,19 +16,17 @@ Status: [ ] open · [~] bezig · [x] klaar. Verplaats niets naar een latere fase
       met vier gevonden en gecorrigeerde fouten: opioïden-ATC-regel (R05DA04 onterecht als
       triggercode voor codeine-als-pijnstiller), cytostatica-voorbeelden tamoxifen/letrozol
       (verkeerde ATC-prefix, L02 i.p.v. L01), antipsychotica ontbrak als categorie, immunomodulantia
-      (azathioprine e.a.) ontbrak als categorie. Zie JOURNEY.md 2026-08-25 voor volledige diff.
+      (azathioprine e.a.) ontbrak als categorie. Zie het privé-bouwlog 2026-08-25 voor volledige diff.
 - [ ] Codeine: correcte ATC-5-code(s) voor codeine-als-pijnstiller bepalen — R05DA04 (hoestmiddel-
       indicatie) is verwijderd zonder vervanging; codeine triggert nu alleen nog via stofnaam-
       fallback in `high_risk.json`. **Blokkerend voor volledige opioïden-dekking, niet voor de
       workshop zelf.**
-- [ ] Repo op GitHub, VS Code + Claude Code werkend — lokaal git-repo + venv + deps werken;
-      GitHub-remote bewust uitgesteld, nog onduidelijk hoe "officieel" dit project wordt.
-      **Let op: WORKSHOP_26AUG.md noemt dit als vereiste vooraf-punt — met de workshop op 26
-      augustus moet uitstel vandaag een bewuste keuze worden, geen automatisme meer.**
-- [x] JOURNEY.md eerste entry — inmiddels 6 sessie-entries, zie docs/JOURNEY.md
+- [x] Repo op GitHub, VS Code + Claude Code werkend — lokaal git-repo + venv + deps werken;
+      repository staat op GitHub (oktober 2026).
+- [x] Eerste bouwlog-entry — het bouwlog is privé en staat niet in deze repository.
 - [x] Related work-scan (te laat uitgevoerd) — pas gedaan bij GitHub-publicatievoorbereiding
       (2026-08-26), niet vóór de eerste werkende versie. Resultaat: `RELATED_WORK.md`.
-      Zie `docs/JOURNEY.md` 2026-08-26 voor het leermoment. Vult ook fase 4's openstaande
+      Zie het privé-bouwlog 2026-08-26 voor het leermoment. Vult ook fase 4's openstaande
       "Prior-art-check voor MedCheck zelf" gedeeltelijk in — die blijft open voor de
       bredere GitHub-zoekactie.
 
@@ -47,7 +45,7 @@ Status: [ ] open · [~] bezig · [x] klaar. Verplaats niets naar een latere fase
       Let op: ATC-5-matching zoals oorspronkelijk hier genoemd bleek niet nodig/haalbaar
       gezien de referentiedata; matcht nu op genormaliseerde stofnaam + route, sterkte/
       dosis/vorm worden ná het matchen vergeleken (vorm zat aanvankelijk fout in de
-      matching-key, zie JOURNEY.md 2026-08-26)
+      matching-key, zie het privé-bouwlog 2026-08-26)
 - [x] Diff-regels per discrepantietype — `engine/diff.py`
 - [x] Diff-regel: sterktewijziging (oude sterkte stopt, nieuwe start) classificeren als 1x
       STRENGTH_CHANGE, niet als los ADDED+STOPPED-paar — zie INTENDED_USE.md v0.3.
@@ -56,7 +54,7 @@ Status: [ ] open · [~] bezig · [x] klaar. Verplaats niets naar een latere fase
       (casus 001 uitgesloten, casus 024 xfail — beide met reden gelogd)
 - [x] Combipreparaat-ontleding — `normalize/locales/nl.py:COMBO_BRANDS`, klein en
       uitbreidbaar (nu alleen Exforge, per de huidige casusset)
-- [x] Duplicaatdetectie — bleek NIET haalbaar op kale ATC-4-prefix (zie JOURNEY.md
+- [x] Duplicaatdetectie — bleek NIET haalbaar op kale ATC-4-prefix (zie het privé-bouwlog
       2026-08-26 voor de volledige onderbouwing); vervangen door een expliciete
       therapeutische-klassetabel `data/reference/duplicate_classes.json`, zelfde
       concept/ongeverifieerd-status als de bestaande referentiebestanden — Bart's
@@ -69,11 +67,11 @@ Status: [ ] open · [~] bezig · [x] klaar. Verplaats niets naar een latere fase
 - [x] Generieke, vocab-gedreven PDF-parser — `parsing/generic_nl.py` +
       `parsing/nl_medication_vocab.py` (NHG/KNMP-begrippenset), vervangt de eerdere
       losse `parsing/hix.py`/`parsing/cgm_apotheek.py` (casus 026/027, testpatiënten;
-      zie JOURNEY.md 2026-08-26 sessie 8 (bouw) en sessie 9 (samenvoeging)). Extractie
+      zie het privé-bouwlog 2026-08-26 sessie 8 (bouw) en sessie 9 (samenvoeging)). Extractie
       geverifieerd, ground truth nog niet — zie punt hieronder.
 - [ ] CLAUDE.md regel 4 — Bart gaf aan het er niet meer mee eens te zijn (sessie 9).
       Bewust nog NIET zelf aangepast; mijn lezing (breder vocabulaire ≠ gokken, wel een
-      reële verzwakking in de sectie-einde-heuristiek) staat in JOURNEY.md 2026-08-26
+      reële verzwakking in de sectie-einde-heuristiek) staat in het privé-bouwlog 2026-08-26
       sessie 9 onder "Besluit" — Bart's bevestiging/concrete formulering nodig, net als
       destijds bij regel 1/ADR-002.
 - [ ] Casus 026/027 ground truth — human check door Bart op de daadwerkelijke
@@ -149,7 +147,7 @@ Status: [ ] open · [~] bezig · [x] klaar. Verplaats niets naar een latere fase
 - [ ] Extractieprompt v1 + structured output schema
 - [ ] PDF-tekst pad (pdfplumber) vs vision pad, beslissen via meting
 - [ ] Confidence per veld
-- [ ] Foutanalyse: top-5 foutcategorieen documenteren in JOURNEY
+- [ ] Foutanalyse: top-5 foutcategorieen documenteren in het privé-bouwlog
 - [ ] Regressietest: casusset draait automatisch bij elke wijziging
 
 ## Fase 3 — UI en escalatie (september)
@@ -168,10 +166,10 @@ Status: [ ] open · [~] bezig · [x] klaar. Verplaats niets naar een latere fase
 - [ ] Workshopdraaiboek 120 min uitwerken
 - [ ] Hosted demo of lokale kloon-instructie voor deelnemers
 - [ ] 3 opzettelijk falende casus als leermoment
-- [ ] Slides uit JOURNEY.md
+- [ ] Slides uit het privé-bouwlog
 - [ ] Prior-art-check voor MedCheck zelf — nooit gedaan (les uit workshop 26 aug, zie
-      `docs/WORKSHOP_12OKT.md` "Lessen uit de workshop van 26 augustus"); alsnog uitvoeren op
-      GitHub en resultaat loggen in JOURNEY.md. Ook bruikbaar als concreet voorbeeld in de
+      de workshopvoorbereiding (privé) "Lessen uit de workshop van 26 augustus"); alsnog uitvoeren op
+      GitHub en resultaat loggen in het privé-bouwlog. Ook bruikbaar als concreet voorbeeld in de
       workshop van 12 oktober (les 1).
 
 ## Nice to have (bewust geparkeerd)

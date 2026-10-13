@@ -2,7 +2,7 @@
   "_meta": {
     "bron": "escalatieregels in CLAUDE.md (fase 3) + WHO ATC-index",
     "status": "CONCEPT — ongeverifieerd door mens",
-    "waarschuwing": "AI-gegenereerd. Verifieer steekproefsgewijs tegen de WHO ATC-index en leg de steekproef vast in docs/JOURNEY.md, net als bij atc_subset.json.",
+    "waarschuwing": "AI-gegenereerd. Verifieer steekproefsgewijs tegen de WHO ATC-index en leg de steekproef vast in het privé-bouwlog, net als bij atc_subset.json.",
     "toelichting": "atc_prefixes matchen op ATC-4 of hoger (bv. 'N02A' matcht elk 7-karakter ATC-5-code die ermee begint). atc_codes zijn exacte ATC-5-matches. Triage-laag moet ook op genormaliseerde stofnaam matchen als fallback (zie CLAUDE.md matchingregel) — sommige middelen (bv. methotrexaat) hebben in de WHO-index twee geldige ATC-codes afhankelijk van indicatie."
   },
   "risk_classes": [

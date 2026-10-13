@@ -1,6 +1,6 @@
 """Tests voor locales/nl/patient_portal_parser.py, gebaseerd op de letterlijke
 tekstfragmenten die Bart deelde uit het ASP-patiëntportaaloverzicht (2026-08-28,
-JOURNEY.md sessie 14) -- geen patiëntgegevens, alleen medicatietekst."""
+het privé-bouwlog sessie 14) -- geen patiëntgegevens, alleen medicatietekst."""
 
 import pytest
 

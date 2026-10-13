@@ -36,7 +36,9 @@ Status: showcase / onderzoeksprototype. MDR-by-design, niet MDR-gecertificeerd.
 3. **Elke AI-extractie krijgt een confidence-score per veld.** Onzekerheid is zichtbaar,
    niet weggepoetst.
 4. **Geen stille fixes.** Als extractie faalt, faalt hij luid: flag, geen gok.
-5. **Elke wijziging aan gedrag → regel in `docs/JOURNEY.md`.** Zonder log geen commit.
+5. **Elke wijziging aan gedrag wordt vastgelegd.** De eigenaar houdt daarvoor een privé-bouwlog bij
+   (`docs/JOURNEY.md`, staat bewust niet in deze repository). Heb je dat bestand niet: beschrijf wat
+   je wijzigde en waarom in de commitmessage of de PR. Zonder motivatie geen commit.
 6. **Architectuurbeslissing → ADR in `docs/decisions/`.** Template staat er.
 7. Taal: code en identifiers Engels, documentatie en UI Nederlands.
 
@@ -44,7 +46,8 @@ Status: showcase / onderzoeksprototype. MDR-by-design, niet MDR-gecertificeerd.
 
 ```
 input (csv | pdf | screenshot | foto)
-  → extraction/   AI: ongestructureerd → MedicationLine JSON + confidence
+  → extraction/   AI (GEPLAND, fase 2, nog niet gebouwd): ongestructureerd → MedicationLine JSON + confidence
+                  Nu: deterministische parsers in parsing/ en locales/
   → normalize/    merknaam→stofnaam, ATC-code, eenheden, frequentie-canonicalisatie
   → engine/       DETERMINISTISCH: diff → Discrepancy[]
   → triage/       regels: risicoklasse, confidence-drempel → escalatie ja/nee
@@ -112,14 +115,14 @@ Werk niet vooruit. Elke fase heeft een exit-criterium.
   *Exit:* ≥95% veldaccuratesse op middel, sterkte, frequentie; alle fouten geflagd of gelogd.
 - **Fase 3** UI, rollen, escalatie, verificatieverslag.
   *Exit:* een assistent kan een casus doorlopen zonder uitleg vooraf.
-- **Fase 4** Congresmateriaal uit JOURNEY.md.
+- **Fase 4** Congresmateriaal, op basis van het privé-bouwlog van de eigenaar.
 
 ## Werkwijze in sessies
 
-- Begin elke sessie: lees `docs/JOURNEY.md` (laatste 20 regels) en de openstaande punten in
-  `docs/BACKLOG.md`.
-- Eindig elke sessie: schrijf een JOURNEY-entry (datum, wat gebouwd, wat brak, welk AI-gedrag
-  verraste, welk besluit genomen).
+- Begin elke sessie: lees de openstaande punten in `docs/BACKLOG.md`. Heeft de eigenaar een
+  privé-bouwlog (`docs/JOURNEY.md`, niet in de repository), lees dan ook de laatste 20 regels.
+- Eindig elke sessie met een korte verslaglegging (datum, wat gebouwd, wat brak, welk AI-gedrag
+  verraste, welk besluit genomen): in het privé-bouwlog als dat bestaat, anders in de PR.
 - Schrijf tests vóór of tegelijk met engine-code. Voor extractie: eerst het evaluatieharnas.
 - Geen frameworks toevoegen zonder ADR.
 

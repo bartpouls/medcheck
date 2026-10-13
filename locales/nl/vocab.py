@@ -1,7 +1,7 @@
 """Landelijke terminologie voor Nederlandse medicatieoverzichten -- gebaseerd op de
 NHG/KNMP-begrippenset achter Nictiz' AMO/Medicatieproces (MP9)-informatiestandaard.
 
-Let op wat deze standaard wél en niét regelt (zie JOURNEY.md 2026-08-26 sessie 9): MP9
+Let op wat deze standaard wél en niét regelt (zie het privé-bouwlog 2026-08-26 sessie 9): MP9
 standaardiseert het datamodel en de elektronische uitwisseling (HL7v3/FHIR) tussen
 systemen, NIET de lay-out van een afgedrukt/PDF-medicatieoverzicht. Elke EPD-/
 apotheekleverancier rendert zijn eigen pagina. Dit bestand is dus geen "MP9-parser"

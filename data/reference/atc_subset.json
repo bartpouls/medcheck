@@ -2,7 +2,7 @@
   "_meta": {
     "bron": "WHO Collaborating Centre for Drug Statistics Methodology, ATC-index",
     "status": "CONCEPT — ongeverifieerd door mens",
-    "waarschuwing": "AI-gegenereerd. Voor gebruik: minimaal 20 willekeurige regels handmatig verifiëren tegen de officiële WHO ATC-index en de steekproef vastleggen in docs/JOURNEY.md. Een gehallucineerde ATC-code is een stille systeemfout (zie data/reference/README.md).",
+    "waarschuwing": "AI-gegenereerd. Voor gebruik: minimaal 20 willekeurige regels handmatig verifiëren tegen de officiële WHO ATC-index en de steekproef vastleggen in het privé-bouwlog. Een gehallucineerde ATC-code is een stille systeemfout (zie data/reference/README.md).",
     "aantal": 172
   },
   "middelen": [

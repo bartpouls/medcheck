@@ -18,7 +18,7 @@ de doseerzin ernaast ("Drie keer per dag ...", "Indien nodig ...") bevat dezelfd
 informatie al in tekstvorm en is betrouwbaarder dan vinkjes/checkmark-glyphs uit een
 PDF halen (die extractie is broos, niet CLAUDE.md-regel-4-proof).
 
-Bewuste aanname, Bart's akkoord nodig (zie JOURNEY.md 2026-08-28 sessie 14): een regel
+Bewuste aanname, Bart's akkoord nodig (zie het privé-bouwlog 2026-08-28 sessie 14): een regel
 onder "Stop deze medicatie" heeft in dit format geen datum/reden. Wordt hier WEL
 opgenomen (niet stilzwijgend weggelaten) met lege stop_date/stop_reason -- de
 bestaande triage-regel "STOPPED zonder geregistreerde reden" escaleert 'm dan vanzelf.

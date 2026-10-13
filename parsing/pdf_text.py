@@ -14,7 +14,7 @@ volgorde (breedste vocab-gedreven herkenning eerst, smallere heuristieken als va
 
 Pad 1 was tot 2026-08-26 twee losse, bijna-identieke sjabloonparsers (parsing/hix.py,
 parsing/cgm_apotheek.py); die bleken beide op dezelfde landelijke veldterminologie te
-herleiden en zijn vervangen door één vocab-gedreven parser (zie JOURNEY.md 2026-08-26
+herleiden en zijn vervangen door één vocab-gedreven parser (zie het privé-bouwlog 2026-08-26
 sessie 9 en locales/nl/pdf_parser.py's eigen moduledocstring voor de grenzen daarvan).
 Pad 2 en pad 5 blijven wel sjabloonspecifiek: vrije tekst/vaste secties laten zich niet
 op kolomlabels herkennen, zie de eigen moduledocstrings van
@@ -87,7 +87,7 @@ def _diagnose_unreadable(full_text: str, page_stats: list[tuple[int, float]]) ->
     zegt WAAROM het niet werkte i.p.v. alleen DAT het niet werkte (CLAUDE.md regel 4:
     luid falen, geen gok -- en de vlag zelf zo informatief mogelijk). Drempels (50
     tekens, 50% dekking) zijn een vuistregel, geijkt op casus 029 (0 tekens, ~88%
-    dekking, zie docs/JOURNEY.md 2026-08-28 sessie 16) en bewust ruim genomen."""
+    dekking, zie het privé-bouwlog 2026-08-28 sessie 16) en bewust ruim genomen."""
     total_chars = len(full_text.strip())
     max_coverage = max((cov for _chars, cov in page_stats), default=0.0)
     if total_chars < 50 and max_coverage >= 50:

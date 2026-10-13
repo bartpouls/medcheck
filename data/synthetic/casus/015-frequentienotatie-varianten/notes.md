@@ -5,4 +5,4 @@ notatiestijlen over lijst A en lijst B heen: "1dd1", "1x per dag", "'s ochtends 
 
 **Verwacht:** 0 discrepanties — alle drie normaliseren naar dezelfde frequency_canonical.
 
-**Test wat:** frequentiecanonicalisatie, zie WORKSHOP_25AUG.md "waar je vastloopt".
+**Test wat:** frequentiecanonicalisatie, zie de workshopvoorbereiding (privé) "waar je vastloopt".

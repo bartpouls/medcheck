@@ -1,7 +1,7 @@
 {
   "_meta": {
     "status": "CONCEPT — ongeverifieerd door mens",
-    "waarschuwing": "AI-gegenereerd tijdens de fase 1-bouwsessie (2026-08-26). Een kale ATC-4-prefixvergelijking bleek niet consistent te werken voor duplicaatdetectie: ibuprofen/diclofenac delen alleen ATC-4 (M01A), oxazepam/temazepam delen zelfs geen ATC-4 (N05BA/N05CD, alleen het 3-karakter N05), terwijl amoxicilline/flucloxacilline (J01CA/J01CF) en insuline aspart/glargine (A10AB/A10AE) wél ATC-4 delen maar NIET als duplicaat mogen gelden. Deze tabel is daarom een expliciete, therapeutische-klasse-gebaseerde vervanging, net als high_risk.json. Verifieer steekproefsgewijs en leg de steekproef vast in docs/JOURNEY.md vóór gebruik buiten de huidige casusset.",
+    "waarschuwing": "AI-gegenereerd tijdens de fase 1-bouwsessie (2026-08-26). Een kale ATC-4-prefixvergelijking bleek niet consistent te werken voor duplicaatdetectie: ibuprofen/diclofenac delen alleen ATC-4 (M01A), oxazepam/temazepam delen zelfs geen ATC-4 (N05BA/N05CD, alleen het 3-karakter N05), terwijl amoxicilline/flucloxacilline (J01CA/J01CF) en insuline aspart/glargine (A10AB/A10AE) wél ATC-4 delen maar NIET als duplicaat mogen gelden. Deze tabel is daarom een expliciete, therapeutische-klasse-gebaseerde vervanging, net als high_risk.json. Verifieer steekproefsgewijs en leg de steekproef vast in het privé-bouwlog vóór gebruik buiten de huidige casusset.",
     "toelichting": "Twee lijnen in lijst B gelden als DUPLICATE_THERAPY als ze verschillende stofnamen hebben én beide in dezelfde klasse hieronder vallen (via atc_prefix of via de substances-lijst). Klassen zijn alleen toegevoegd voor zover een bestaande casus dat vereist -- uitbreiden is een inhoudelijke, geen technische beslissing."
   },
   "classes": [

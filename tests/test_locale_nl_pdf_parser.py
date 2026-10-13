@@ -2,7 +2,7 @@
 (voorheen parsing/generic_nl.py, verplaatst bij de i18n-herstructurering) los van
 echte PDF's (zelfde aanpak als de eerdere tests/test_hix.py en
 tests/test_cgm_apotheek.py, die deze test vervangt nu beide vendor-specifieke
-parsers zijn samengevoegd tot één generieke parser -- zie JOURNEY.md 2026-08-26
+parsers zijn samengevoegd tot één generieke parser -- zie het privé-bouwlog 2026-08-26
 sessie 9)."""
 
 import pytest

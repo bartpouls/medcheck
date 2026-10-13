@@ -58,7 +58,7 @@ def test_casus_027_cgm_extraction():
 
 
 def test_casus_028_asp_extraction():
-    """ASP (openbare apotheek), casus 028 -- zie JOURNEY.md 2026-08-28 sessie 12.
+    """ASP (openbare apotheek), casus 028 -- zie het privé-bouwlog 2026-08-28 sessie 12.
     Toetst wat inmiddels bevestigd goed gaat (stofnaam/sterkte/vorm, "."-> expliciete
     "geen dosering geregistreerd", "maal"-synoniem). Toetst bewust NIET route/
     toelichting -- die kolommen lopen bij dit bronbestand door elkaar (Toelichting

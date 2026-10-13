@@ -4,7 +4,7 @@ tests/test_casus.py, dat alleen het CSV-pad dekt.
 
 Deze drie casus zijn gekozen omdat casus 006-010 al Bart's eigen, lopende
 PDF-experiment bevatten (ontslagbrief-stijl, vrije tekst -- niet bruikbaar voor dit
-pad, zie JOURNEY.md 2026-08-26); 002/013/017 hadden nog geen PDF en dekken drie
+pad, zie het privé-bouwlog 2026-08-26); 002/013/017 hadden nog geen PDF en dekken drie
 verschillende paden: combipreparaat-ontleding, frequentiewijziging, dosiswijziging."""
 
 import json

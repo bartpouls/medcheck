@@ -1,7 +1,7 @@
 # MVP-opzet — fase 1 diff-engine
 
 Status: concept · basis voor bouwsessie · afgeleid uit CLAUDE.md, INTENDED_USE.md v1.0,
-BACKLOG.md fase 1, WORKSHOP_26AUG.md, ADR-001.
+BACKLOG.md fase 1, de workshopvoorbereiding (privé), ADR-001.
 
 ## Scope-bepaling
 
@@ -33,16 +33,16 @@ Expliciet **niet** in deze MVP (fase 2/3, of buiten scope per INTENDED_USE.md §
 
 ## Openstaand vóór bouwstart (blokkerend of risicovol als genegeerd)
 
-1. **25 casus medisch-inhoudelijk reviewen** — nog niet gedaan (BACKLOG.md, JOURNEY 2026-08-25).
+1. **25 casus medisch-inhoudelijk reviewen** — nog niet gedaan (BACKLOG.md, het privé-bouwlog 2026-08-25).
    Ground truth is nog AI-gegenereerd. Besluit: bouwen gaat pragmatisch door tegen de huidige
-   `expected_diff.json`, expliciet gelogd als open risico in JOURNEY.md — niet blokkerend voor
+   `expected_diff.json`, expliciet gelogd als open risico in het privé-bouwlog — niet blokkerend voor
    de bouwsessie, wel voor "af".
 2. **Codeine-ATC-code voor pijnstillergebruik** — R05DA04 verwijderd zonder vervanging
    (BACKLOG.md). Blokkeert alleen volledige opioïden-dekking, niet de rest van de engine.
 3. **STRENGTH_CHANGE-classificatie bevestigen** — moet 1x STRENGTH_CHANGE zijn, niet een
    ADDED+STOPPED-paar (INTENDED_USE.md v0.3, BACKLOG.md fase 1). Kernregel, eerst vastzetten
    voordat de diff-regels geschreven worden — een latere herclassificatie raakt elke test.
-4. **GitHub-repo** — WORKSHOP_26AUG.md noemt dit als vereiste vooraf-punt, bewust uitgesteld.
+4. **GitHub-repo** — de workshopvoorbereiding (privé) noemt dit als vereiste vooraf-punt, bewust uitgesteld.
    Geen technische blocker voor lokaal bouwen, wel voor delen/samenwerken.
 
 ## Modules (volgorde = bouwvolgorde, elke stap eindigt groen)
@@ -124,12 +124,12 @@ acceptatiecriterium — geen "ongeveer goed".
 
 Geen AI in dit pad. Elke poging om een discrepantie te "wegen" op klinische relevantie
 (bijv. "dit is waarschijnlijk een fout, dus...") hoort niet in `engine/` — dat is fase 3/
-mensenwerk. Signaal om op te letten tijdens het bouwen (WORKSHOP_26AUG.md): Claude die uit
+mensenwerk. Signaal om op te letten tijdens het bouwen (de workshopvoorbereiding (privé)): Claude die uit
 behulpzaamheid heuristieken voorstelt die eigenlijk klinische beslissingen zijn.
 
 ## Volgende stap
 
 Zodra bovenstaande openstaande punten (vooral 1 en 3) zijn afgehandeld: bouwsessie starten
-volgens het blokschema in `docs/WORKSHOP_26AUG.md`, beginnend bij `models.py`.
+volgens het blokschema in `de workshopvoorbereiding (privé)`, beginnend bij `models.py`.
 </content>
 </invoke>
