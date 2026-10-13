@@ -56,4 +56,5 @@ wat er per versie is veranderd, en `docs/BACKLOG.md` voor wat nog open staat.
 - Werkafspraken voor AI-assistentie: `CLAUDE.md`
 - Licentie: Apache-2.0, zie `LICENSE`
 
-Bart Pouls · Radboudumc
+Bart Pouls · Radboudumc  
+Victor Huiskes · Sint Maartenskliniek
