@@ -1,4 +1,4 @@
-# Skills workshop "Claude als collega in de openbare apotheek" (11 november 2026)
+# Skills workshop "Claude als collega in de openbare apotheek"
 
 Upload de zip in claude.ai onder Settings → Capabilities → Skills. Niet uitpakken.
 
